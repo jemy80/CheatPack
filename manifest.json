@@ -2,7 +2,7 @@
 	"name": "Naveq-CheatPack",
 	"version": "0.0.3",
 	"manifest_version": 2,
-	"description": "Advanced CheatPack for Testportal, Quizizz and Brainly.",
+	"description": "Simple CheatPack for Testportal, Quizizz and Brainly.",
 	"icons": {
 		"16": "icons/icon16.png",
 		"48": "icons/icon48.png",
@@ -44,7 +44,7 @@
 		},
 		{
 			"matches": [
-				"*://*.quizizz.com/*"
+				"*://*.quizizz.com/join/game/*"
 			],
 			"css": [
 				"src/inject/quizizz/inject.css"
