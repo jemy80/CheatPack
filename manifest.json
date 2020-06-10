@@ -1,0 +1,71 @@
+{
+	"name": "Naveq-CheatPack",
+	"version": "0.0.2",
+	"manifest_version": 2,
+	"description": "Advanced CheatPack for Testportal, Quizizz and Brainly.",
+	"icons": {
+		"16": "icons/icon16.png",
+		"48": "icons/icon48.png",
+		"128": "icons/icon128.png"
+	},
+	"default_locale": "pl",
+	"background": {
+		"scripts": [
+			"src/bg/background.js"
+		],
+		"persistent": false
+	},
+	"options_ui": {
+		"page": "settings/index.html",
+		"open_in_tab": true
+	},
+	"browser_action": {
+		"default_icon": "icons/icon19.png",
+		"default_title": "CheatPack",
+		"default_popup": "src/browserAction/popup.html"
+	},
+	"permissions": [
+		"contentSettings",
+		"storage"
+	],
+	"content_scripts": [
+		{
+			"matches": [
+				"*://*.testportal.pl/*",
+				"*://*.testportal.net/*"
+			],
+			"css": [
+				"src/inject/testportal/inject.css"
+			],
+			"js": [
+				"src/inject/testportal/inject.js"
+			],
+			"run_at": "document_start"
+		},
+		{
+			"matches": [
+				"*://*.quizizz.com/*"
+			],
+			"css": [
+				"src/inject/quizizz/inject.css"
+			],
+			"js": [
+				"src/inject/quizizz/inject.js"
+			],
+			"run_at": "document_start"
+		},
+		{
+			"matches": [
+				"*://*.brainly.pl/*",
+				"*://*.brainly.com/*"
+			],
+			"css": [
+				"src/inject/brainly/inject.css"
+			],
+			"js": [
+				"src/inject/brainly/inject.js"
+			],
+			"run_at": "document_end"
+		}
+	]
+}

@@ -1,0 +1,122 @@
+{
+	"appName": {
+		"message": "Naveq CheatPack",
+		"description": "The title of the application, displayed in the web store."
+	},
+	"appDesc": {
+		"message": "This app destroyes e-learning (and not only) AT ALL.",
+		"description": "The description of the application, displayed in the web store."
+	},
+	"testportalLoading": {
+		"message": "Testportal loaded...",
+		"description": "A message in the console appears when the Testportal cheat is loaded."
+	},
+	"quizizzLoading": {
+		"message": "Quizizz loaded...",
+		"description": "A message in the console appears when the Quizizz cheat is loaded."
+	},
+	"brainlyLoading": {
+		"message": "Brainly loaded...",
+		"description": "A message in the console appears when the Brainly cheat is loaded."
+	},
+	"testportalName": {
+		"message": "Testportal",
+		"description": "[TRANSLATION]"
+	},
+	"quizizzName": {
+		"message": "Quizizz",
+		"description": "[TRANSLATION]"
+	},
+	"brainlyName": {
+		"message": "Brainly",
+		"description": "[TRANSLATION]"
+	},
+	"testportalCheatQuestion": {
+		"message": "Do you want to activate Testportal cheats?",
+		"description": "Does user want to activate cheats for Testportal?"
+	},
+	"quizizzCheatQuestion": {
+		"message": "Do you want to activate Quizizz cheats?",
+		"description": "Does user want to activate cheats for Quizizz?"
+	},
+	"brainlyCheatQuestion": {
+		"message": "Do you want to activate Brainly cheats?",
+		"description": "Does user want to activate cheats for Google Forms?"
+	},
+	"cheatEnableLabel": {
+		"message": "Yes, I want to enable these cheats.",
+		"description": "Question to the user if he wants to enable the cheat."
+	},
+	"cheatOptionsHeader": {
+		"message": "Cheat Settings",
+		"description": "If the cheat has available options, this string is shown in the header."
+	},
+	"quizizzOptionsAutoAnswerLabel": {
+		"message": "Automatically answer the question after a given number of seconds.",
+		"description": "Option to automatically answer a question in the Quizizz cheat settings."
+	},
+	"testportalOptionsTimeCheatLabel": {
+		"message": "Bypass time limit for tests where the time limit is set to a single question.",
+		"description": "EXPERIMENTAL option to bypass the time limit in the case of tests, where the time is set for a single question on Testportal."
+	},
+	"AutoAnswerTimeLabel": {
+		"message": "Answer the question after",
+		"description": "[TRANSLATION]"
+	},
+	"seconds": {
+		"message": "seconds.",
+		"description": "[TRANSLATION]"
+	},
+	"quizizzWaitTimePromptLabel": {
+		"message": "Please enter the number of seconds to wait before each answer.",
+		"description": "Prompt the user for the number of seconds to wait before each response for Quizizz Cheat."
+	},
+	"invalidNumberError": {
+		"message": "The provided value is not a number. Make sure that you correctly set waiting time in CheatPack settings.",
+		"description": "Invalid number error message for Quizizz Cheat."
+	},
+	"experimentalWarning": {
+		"message": "WARNING! This function is experimental. It may have a negative impact on test and we cannot guarantee its correct functioning. USE IT AT YOUR OWN RISK!",
+		"description": "Warning to the user saying that the use of a given function may be dangerous."
+	},
+	"settingsLink": {
+		"message": "Settings",
+		"description": "[TRANSLATION]"
+	},
+	"informationsLink": {
+		"message": "Informations",
+		"description": "[TRANSLATION]"
+	},
+	"contributorsLink": {
+		"message": "Contributors",
+		"description": "[TRANSLATION]"
+	},
+	"discordLink": {
+		"message": "Discord",
+		"description": "[TRANSLATION]"
+	},
+	"xhrError": {
+		"message": "An error occurred while retrieving information from the server. Please try again later.",
+		"description": "Message showing when an XHR error occurs."
+	},
+	"netError": {
+		"message": "No Internet connection. For proper functioning, CheatPack requires an Internet connection. Check your connection and try again later.",
+		"description": "Message that appears to the user when CheatPack settings cannot connect to the Internet."
+	},
+	"author": {
+		"message": "Author",
+		"description": "[TRANSLATION]"
+	},
+	"description": {
+		"message": "Description",
+		"description": "[TRANSLATION]"
+	},
+	"comments": {
+		"message": "Comments",
+		"description": "Comments on a given cheat Label. [TRANSLATION]"
+	},
+	"specialThanks": {
+		"message": "Special thanks to",
+		"description": "Special thanks label in Informations page. [TRANSLATION]"
+	}
+}

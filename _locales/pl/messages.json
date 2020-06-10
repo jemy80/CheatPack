@@ -1,0 +1,122 @@
+{
+	"appName": {
+		"message": "Naveq CheatPack",
+		"description": "Tytuł aplikacji wyświetlany w Chrome Web Store."
+	},
+	"appDesc": {
+		"message": "Panie, jak masz pan zdalne nauczanie to bierej pan, masz tu pan cheaty do: Testportal, Quizizz Google Forms i Brainly.",
+		"description": "Opis aplikacji wyświetlany w Chrome Web Store."
+	},
+	"testportalLoading": {
+		"message": "Testportal załadowany... pyr pyr pyr",
+		"description": "Komunikat w konsoli pojawiający się po załadowaniu cheatu do Testportal."
+	},
+	"quizizzLoading": {
+		"message": "Quizizz załadowany... pyr pyr pyr",
+		"description": "Komunikat w konsoli pojawiający się po załadowaniu cheatu do Quizizz."
+	},
+	"brainlyLoading": {
+		"message": "Brainly załadowane... pyr pyr pyr",
+		"description": "Komunikat w konsoli pojawiający się po załadowaniu cheatu do Brainly."
+	},
+	"testportalName": {
+		"message": "Testportal",
+		"description": "[TŁUMACZENIE]"
+	},
+	"quizizzName": {
+		"message": "Quizizz",
+		"description": "[TŁUMACZENIE]"
+	},
+	"brainlyName": {
+		"message": "Brainly",
+		"description": "[TŁUMACZENIE]"
+	},
+	"testportalCheatQuestion": {
+		"message": "Czy chcesz aktywować cheaty do Testportal?",
+		"description": "Pytanie do użytkownika, czy aktywować cheaty do Testportal."
+	},
+	"quizizzCheatQuestion": {
+		"message": "Czy chcesz aktywować cheaty do Quizizz?",
+		"description": "Pytanie do użytkownika, czy aktywować cheaty do Quizizz."
+	},
+	"brainlyCheatQuestion": {
+		"message": "Czy chcesz aktywować cheaty do Brainly?",
+		"description": "Pytanie do użytkownika, czy aktywować cheaty do Brainly."
+	},
+	"cheatEnableLabel": {
+		"message": "Tak, chcę aktywować te cheaty.",
+		"description": "Treść obok pola wyboru, którego kliknięcie powoduje aktywację cheatu do danego serwisu."
+	},
+	"cheatOptionsHeader": {
+		"message": "Ustawienia Cheatu",
+		"description": "Jeśli cheat ma dostępne opcje, ten napis jest wyświetlany w nagłówku."
+	},
+	"quizizzOptionsAutoAnswerLabel": {
+		"message": "Automatycznie odpowiadaj na pytanie po upływie danej ilości sekund.",
+		"description": "Opcja automatycznego odpowiadania na pytanie w ustawieniach cheatu do Quizizz."
+	},
+	"testportalOptionsTimeCheatLabel": {
+		"message": "Omiń limit czasu w przypadku testów, gdzie czas ustalony jest na pojedyncze pytanie.",
+		"description": "EKSPERYMENTALNA opcja omijania limitu czasu w przypadku testów, gdzie czas ustalony jest na pojedyncze pytanie na Testportal."
+	},
+	"AutoAnswerTimeLabel": {
+		"message": "Odpowiedz na pytanie po",
+		"description": "[TŁUMACZENIE]"
+	},
+	"seconds": {
+		"message": "sekundach.",
+		"description": "[TŁUMACZENIE]"
+	},
+	"quizizzWaitTimePromptLabel": {
+		"message": "Wprowadź liczbę sekund oczekiwania przed każdą odpowiedzią.",
+		"description": "Zapytanie do użytkownika o liczbę sekund oczekiwania przed każdą odpowiedzią do Cheatu do Quizizz."
+	},
+	"invalidNumberError": {
+		"message": "Podana wartość nie jest liczbą. Sprawdź, czy poprawnie ustawiłeś czas oczekiwania w ustawieniach CheatPacka.",
+		"description": "Komunikat o błędnym numerze dla Cheatu do Quizizz."
+	},
+	"experimentalWarning": {
+		"message": "UWAGA! Ta funkcja jest eksperymentalna. Jej użycie może źle wpłynąć na przebieg testu, a my nie możemy zagwarantować jej poprawnego funkcjonowania. UŻYWASZ NA WŁASNE RYZYKO!",
+		"description": "Treść ostrzeżenia do użytkownika, mówiąca, że użycie danej funkcji może być niebezpieczne."
+	},
+	"settingsLink": {
+		"message": "Ustawienia",
+		"description": "[TŁUMACZENIE]"
+	},
+	"informationsLink": {
+		"message": "Informacje",
+		"description": "[TŁUMACZENIE]"
+	},
+	"contributorsLink": {
+		"message": "Współtwórcy",
+		"description": "[TŁUMACZENIE]"
+	},
+	"discordLink": {
+		"message": "Discord",
+		"description": "[TŁUMACZENIE]"
+	},
+	"xhrError": {
+		"message": "Wystąpił błąd podczas pobierania informacji z serwera. Spróbuj ponownie później.",
+		"description": "Wiadomość pokazująca się, gdy wystąpi błąd XHR."
+	},
+	"netError": {
+		"message": "Brak połączenia z Internetem. Do poprawnego działania, CheatPack wymaga połączenia z Internetem. Sprawdź swoje połączenie i spróbuj ponownie później.",
+		"description": "Wiadomość pokazująca się użytkownikowi, gdy ustawienia CheatPack'a nie będą mogły połączyć się z Internetem."
+	},
+	"author": {
+		"message": "Autor",
+		"description": "[TŁUMACZENIE]"
+	},
+	"description": {
+		"message": "Opis",
+		"description": "[TŁUMACZENIE]"
+	},
+	"comments": {
+		"message": "Uwagi",
+		"description": "Uwagi do danego cheatu. [TŁUMACZENIE]"
+	},
+	"specialThanks": {
+		"message": "Specjalne podziękowania dla",
+		"description": "Podziękowania dla danych osób na karcie Informacje. [TŁUMACZENIE]"
+	}
+}
