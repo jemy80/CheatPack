@@ -3,10 +3,6 @@
  * @author EastArctica
  */
 
-if (window.location.href.search("quizizz.com/join/game/") == -1 && window.location.href.search("gameType=") == -1) {
-    throw new Error("You aren't on a quizizz quiz.");
-}
-
 if (typeof jQuery == 'undefined') {
     let script = document.createElement('script');
     script.src = 'https://code.jquery.com/jquery-3.4.1.min.js';

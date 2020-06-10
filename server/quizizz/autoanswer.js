@@ -2,15 +2,6 @@
  * Quizizz AutoAnswer script by East Arctica (https://github.com/EastArctica) with small changes made by Naveq (https://github.com/Naveq) to work with Naveq-CheatPack.
  * @author EastArctica
  */
-if (window.location.href.search("quizizz.com/join/game/") == -1 && window.location.href.search("gameType=") == -1) {
-    if (window.location.href.search("quizizz.com/join/pre-game/") != -1) {
-        // throw new Error("Cannot execute this while paused.");
-    } else if (window.location.href.search("quizizz.com/join/quiz/") != -1) {
-        // throw new Error("Need to start the game before running this script.");
-    } else {
-        throw new Error("You aren't on a quizizz quiz.");
-    }
-}
 
 if (typeof jQuery == 'undefined') {
     let script = document.createElement('script');

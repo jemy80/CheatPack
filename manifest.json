@@ -1,6 +1,6 @@
 {
 	"name": "Naveq-CheatPack",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"manifest_version": 2,
 	"description": "Advanced CheatPack for Testportal, Quizizz and Brainly.",
 	"icons": {
@@ -52,7 +52,7 @@
 			"js": [
 				"src/inject/quizizz/inject.js"
 			],
-			"run_at": "document_start"
+			"run_at": "document_idle"
 		},
 		{
 			"matches": [
