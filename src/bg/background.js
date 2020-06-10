@@ -1,7 +1,7 @@
 chrome.runtime.onMessage.addListener(
 	function (req, sender, sendResponse) {
 		if (req.query == "serverAddress") {
-			sendResponse({ serverAddress: "https://raw.githubusercontent.com/Naveq-DevTeam/CheatPack/master/server" }); // CheatPack Server address
+			sendResponse({ serverAddress: "https://cdn.jsdelivr.net/gh/Naveq-DevTeam/CheatPack@0.0.3/server" }); // CheatPack Server address
 		}
 	}
 );
