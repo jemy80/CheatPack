@@ -19,7 +19,6 @@ Cheats are available for:
 * Extension Popup Page shows the latest news and updates.
 
 ## Known bugs
-* On Testportal, the test exit dialog box appears despite not sending information about leaving the test to its creator.
 * On Quizizz, cheat can't get answers to some questions, and as a result you have to answer some of them yourself. In very exceptional cases, a Fatal Error appears saying that it was not possible to get an answer to any of the next questions.
 
 ## Installation
