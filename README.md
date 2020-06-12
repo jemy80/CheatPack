@@ -37,10 +37,10 @@ Cheats are available for:
 Pull requests are very welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 <b>IMPORTANT!</b>
-If you want to make changes to a cheat mechanism, not CheatPack mechanics, open Pull Request in the cheat creator repository. The exception here is Brainly Cheat, which is so simple that there was no need to create a new repository for it.
+If you want to make changes to a cheat mechanism, not CheatPack mechanics, open Pull Request in the cheat creator repository.
 
 ## Cheat mechanics
-Cheats are downloaded from web server, so they're almost up-to-date. Original cheat repos are here: [Testportal](https://github.com/Lumm1t/anti-testportal), [Quizizz](https://github.com/EastArctica/JS-Plugins), [Librus Synergia](https://github.com/RouNNdeL/librus-average).
+Cheats are downloaded from web server ([this](https://github.com/Naveq-DevTeam/CheatPack-Server) GitHub repo via JSDelivr CDN), so they're almost up-to-date. Original cheat repos are here: [Testportal](https://github.com/Lumm1t/anti-testportal), [Quizizz](https://github.com/EastArctica/JS-Plugins), [Brainly](https://github.com/Naveq/BrainlyCheat), [Librus Synergia](https://github.com/RouNNdeL/librus-average).
 
 ## Motivation
 I just wanted to do anything other than watching anime and I created this CheatPack lol
